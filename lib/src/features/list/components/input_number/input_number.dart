@@ -9,8 +9,8 @@ class InputNumber extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final textController = useTextEditingController();
-
     final listController = ref.read(listProvider.notifier);
+
     return Container(
         height: MediaQuery.of(context).size.height * 0.2,
         decoration: BoxDecoration(

@@ -30,19 +30,6 @@ class Menu extends ConsumerWidget {
                 : Navigator.pushNamed(context, RouteName.menuContent);
           }
         },
-        // onTap: AppResponsive.isTablet(context) ||
-        //         AppResponsive.isLandscape(context)
-        //     ? null
-        //     : () {
-        //         Navigator.push(
-        //           context,
-        //           MaterialPageRoute(
-        //             builder: (context) => MenuContent(
-        //               menuItemData: menuItemData,
-        //             ),
-        //           ),
-        //         );
-        //       },
         child: Container(
           decoration: BoxDecoration(color: menuItemData.color),
           height: 100,
